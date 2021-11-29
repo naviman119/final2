@@ -2,11 +2,6 @@ let mode = 0
 let tilt = 0
 let roll = 0
 let pitch = 0
-input.onButtonPressed(Button.A, function () {
-    mode = 0
-    basic.showNumber(mode)
-    basic.pause(500)
-})
 input.onButtonPressed(Button.B, function () {
     mode += 1
     if (mode == 2) {
